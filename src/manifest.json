@@ -6,7 +6,7 @@
 	"description": "Search for bookmarks from the omnibox.",
 	"icons": {"16": "icon16.png", "48": "icon48.png", "128": "icon128.png"},
 	"background": {"scripts": ["search_common.js", "background.js"], "persistent": false},
-	"omnibox": {"keyword" : "bm"},
+	"omnibox": {"keyword" : "fav"},
 	"permissions": ["bookmarks", "notifications"],
 	"optional_permissions": ["activeTab"],
 	"options_page": "options.html",
